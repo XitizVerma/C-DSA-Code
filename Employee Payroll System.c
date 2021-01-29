@@ -9,7 +9,7 @@ struct node
     struct node *left;
     struct node *right;
 };
-typedef struct node *NODE;
+typedef struct node *NODE ;
 NODE insert (NODE root,int eid,char ename [10],float lt)
 {
     NODE newnode,prev,pres;
